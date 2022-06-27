@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}/* el * es un selector hace alucion a toda la pagina,afecta a too lo q tenemos en nuestra pagina web,se recomiends usar box-sizing border box  margin 0 y padding 0,el borderbox,el padding 0 y margin 0 permite que la caja que contenga otra no se salga del limite,si esa caja tiene 98 %de border esos 2 px se va a restar de ambos lados,nada se sale al exterior,puede haber error de calculo, padding y margin es para sacar los margenes*/
+
+a{
+    color: black;
+    text-decoration: none;
+}/* el text decoratio es para sacar ese surayado feo que tiene  */
+li{
+    list-style: none;
+}/* con list style none es para sacar los puntitos molestos si es necesario */

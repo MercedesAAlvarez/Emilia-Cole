@@ -1,0 +1,37 @@
+.home{
+    background-image: url('../img/emilia-home.jpg');
+    background-repeat: no-repeat;
+    background-position: right 0;
+    background-size: 70%;
+    text-transform: uppercase;
+}
+.home header{
+    margin-left: 30px;
+
+}/* con margin left se mueve todo lo del header a un costado,le agrega margen del lado izquierdo 
+el padding es un margen interno,border  es el borde de un elemento y margin es el margen de afuera,es la diferencia ente padding y margin */
+.home header nav ul li {
+    margin: 10px 0;
+    /* text-transform: uppercase; */
+   
+}/*  10 px es del eje  vertical el segundo parametro 0 hace alucion a eje horizontal */
+.home header nav ul li a{
+    
+    color: #656668;
+} 
+.home main{
+    margin-top: 190px;
+}
+.home main h2{
+    margin-bottom: 150px; /* margin bottom margen de abajo */
+    margin-left: 30px;
+    font-family: var(--Fuente-Subtitulos);
+    font-size: 35px;
+    font-weight: 300 ;
+    letter-spacing: 10px; /* para dar espacios entre cada letra */
+}
+.home main h1{
+    font-size: 100px;
+    background-color: #fefefe6e;
+    font-family: var(--Fuente-Titulos);
+}

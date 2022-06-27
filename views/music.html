@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music</title>
+     <!-- CSS -->
+     <link rel="stylesheet" href="/css/style.css"><!-- link y buscar link:css -->
+     <!-- Font Awesome -->
+     <script src="https://kit.fontawesome.com/e5e17dceab.js" crossorigin="anonymous"></script>
+</head>
+<body class="music">
+    <header id="header"> <!-- no se puede repetir el id es unico, id para javascript-->
+        <nav>
+            <ul class="navegacion">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/music">Music</a></li>
+                <li class="barraderecha"><a href="/contact">Contact</a></li>
+            </ul>
+            <ul class="icons"><!-- li*Nª>a sale varias li,sin etiqueta li ul funciona como contenedor -->
+                <a href=""><i class="fab fa-twitter"></i></a><!-- etiqueta "a" es una etiqueta en linea -->
+                <a href=""><i class="fab fa-facebook-square"></i></a>
+                <a href=""><i class="fab fa-spotify"></i></a>
+                <a href=""><i class="fab fa-apple"></i></a>
+                <a href=""><i class="fab fa-amazon"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Music //</h1>
+
+        <h4 class="start">Direct links</h4>
+        <ul>
+            <li><a href="#album">Album</a></li>
+            <li><a href="#Organic">Video: Organic Love</a></li>
+            <li><a href="#street">Video: Street Light</a></li>
+        </ul>
+
+       <h2 class="start" >Album</h2>
+       <h2>Twist in my reality</h2> 
+       <img src="/img/emilia-play-list.png" alt="imagen playlist" id="img">
+       
+       <ol>
+        <li><i class="fas fa-play"></i> Organic Love | 02:40</li>
+        <li><i class="fas fa-play"></i> Twist my realit | 02:10</li>
+        <li><i class="fas fa-play"></i> Street light | 03:28</li>
+        <li class="last"><i class="fas fa-play"></i> Love Don't Live Here Anymore | 03:28</li>
+       </ol>
+
+       <a href="#">Go Top</a><!-- el go top me lleva a la parte superior, poniendo · -->
+       <h2 class="start" >Video</h2>
+       <h2>Organic Love</h2> 
+       <iframe src="https://player.vimeo.com/video/135166028" width="640" height="360" frameborder="0"
+        allow="autoplay; fullscreen" allowfullscreen id="Organic"></iframe>
+        <p>Directed by <span> vince malc & emilia cole</span> </p> <!-- etiqueta span es para poner un pedazo del texto en este caso en mayuscula,es una etiqueta en linea -->
+        <p>Edited and filmed <span> nicolas troy</span> </p> 
+        <p>Produced by <span> niki heard,</span> </p> 
+        <p class="last">Wix Films<span>ltd.</span> </p> 
+
+        <a href="#">Go Top</a>
+
+        <h2 class="start" >Video</h2>
+       <h2>Street light</h2> 
+       <iframe src="https://player.vimeo.com/video/134861419" width="640" height="360" frameborder="0"
+        allow="autoplay; fullscreen" allowfullscreen id="street"></iframe>
+        <p>Directed by <span> vince malc & emilia cole</span> </p> <!-- etiqueta span es para poner un pedazo del texto en este caso en mayuscula,es una etiqueta en linea -->
+        <p>Edited and filmed <span> nicolas troy</span> </p> 
+        <p>Produced by <span> niki heard,</span> </p> 
+        <p class="last">Wix Films<span>ltd.</span> </p> 
+
+        <a href="#">Go Top</a>
+    </main>
+</body>
+</html>
