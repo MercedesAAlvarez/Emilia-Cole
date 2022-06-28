@@ -11,3 +11,6 @@ a{
 li{
     list-style: none;
 }/* con list style none es para sacar los puntitos molestos si es necesario */
+h1{
+    font-size: 4rem;
+}

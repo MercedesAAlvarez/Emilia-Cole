@@ -18,7 +18,12 @@ el padding es un margen interno,border  es el borde de un elemento y margin es e
 .home header nav ul li a{
     
     color: #656668;
+    font-family: var(--Fuente-Subtitulos);
 } 
+.home header nav ul  a{
+    font-size: 30px;
+}
+
 .home main{
     margin-top: 190px;
 }
@@ -31,7 +36,7 @@ el padding es un margen interno,border  es el borde de un elemento y margin es e
     letter-spacing: 10px; /* para dar espacios entre cada letra */
 }
 .home main h1{
-    font-size: 100px;
+  
     background-color: #fefefe6e;
     font-family: var(--Fuente-Titulos);
 }

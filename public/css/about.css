@@ -1,3 +1,60 @@
-h1{
-    font-size: 8rem;
+.about {
+    background-image: url('../img/emilia-about.jpg');
+    background-repeat: no-repeat;
+    background-position: right 0;
+    background-size: 80%;
+    text-transform: uppercase;
+}
+
+.about header nav {
+    text-align: right;
+    padding-top: 45px;
+    width: 99%;
+    margin: 0 auto;
+}
+
+.about header nav .navegacion {
+    background-color: #ffffff7e;
+    padding: 15px 1px;
+
+
+}
+
+.about header nav .navegacion li {
+    display: inline;
+    padding: 14px 1px;
+    border-left: 1px solid #000000;
+
+}
+
+.about header li.barraDerecha {
+    border-right: 1px solid #000000;
+}
+
+.about header nav .navegacion li a {
+    font-family: var(--Fuente-Subtitulos);
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.about header nav .icons {
+    margin-top: 8px;
+}
+
+/* main */
+.about main{
+    font-size: 20px;
+}
+
+.about main h1 {
+    font-size: 4rem;
+    font-family: var(--Fuente-Subtitulos);
+}
+.about main h3{
+    margin: 80px 0 30px 40px;
+    color: var(--colorSecundarioFuentes);
+}
+.about main p{
+    margin: 0 40px;
+    color: var(--colorSecundarioFuentes)
 }
